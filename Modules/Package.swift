@@ -18,7 +18,7 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "APIClient", dependencies: [.tca]),
+        .target(name: "APIClient", dependencies: [.tca, "SharedModels"]),
         .target(name: "SharedModels", dependencies: []),
         .target(name: "TestData", dependencies: [], resources: [.copy("Payloads")]),
         .testTarget(name: "APIClientTests", dependencies: ["APIClient", "TestData"]),

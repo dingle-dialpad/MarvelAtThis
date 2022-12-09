@@ -6,6 +6,7 @@
 import Foundation
 
 public enum JSONStub: String {
+    case responseSchema = "response_schema"
     case getCharacters200 = "get_characters_200"
 
     public var data: Data {
