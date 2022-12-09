@@ -9,13 +9,19 @@ let package = Package(
     products: [
         .library(name: "APIClient", targets: ["APIClient"]),
         .library(name: "SharedModels", targets: ["SharedModels"]),
+        .library(name: "TestData", targets: ["TestData"])
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture.git", from: Version("0.47.2"))
+        .package(
+            url: "https://github.com/pointfreeco/swift-composable-architecture.git",
+            from: Version("0.47.2")
+        )
     ],
     targets: [
         .target(name: "APIClient", dependencies: [.tca]),
         .target(name: "SharedModels", dependencies: []),
+        .target(name: "TestData", dependencies: [], resources: [.copy("Payloads")]),
+        .testTarget(name: "APIClientTests", dependencies: ["APIClient", "TestData"]),
         .testTarget(name: "SharedModelsTests", dependencies: ["SharedModels"]),
     ]
 )
