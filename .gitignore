@@ -90,3 +90,4 @@ iOSInjectionProject/
 
 .DS_Store
 *.swp
+*.secret
