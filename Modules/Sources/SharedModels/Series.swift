@@ -5,12 +5,12 @@
 
 import Foundation
 
-public struct Series {
+public struct Series: Codable {
     public let id: Int
     public var title: String
     public var summary: String
     public var cannonicalURL: URL
-    public var urls: [MarvelURL]
+    public var urls: [Annotated<URL>]
     public var startYear: Int
     public var endYear: Int
     public var rating: String

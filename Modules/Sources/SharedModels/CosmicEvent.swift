@@ -5,12 +5,12 @@
 
 import Foundation
 
-public struct CosmicEvent {
+public struct CosmicEvent: Codable {
     public let id: Int
     public var title: String
     public var summary: String
     public var cannonicalURL: URL
-    public var urls: [MarvelURL]
+    public var urls: [Annotated<URL>]
     public var lastModified: Date
     public var start: Date
     public var end: Date

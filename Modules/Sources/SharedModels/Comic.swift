@@ -5,7 +5,9 @@
 
 import Foundation
 
-public struct Comic {
+public typealias Price = Float
+
+public struct Comic: Codable {
     public let id: Int
     public let digitalID: Int
     public var title: String
@@ -26,8 +28,8 @@ public struct Comic {
     public var variants: [ResourceRef<Comic>]
     public var collections: [ResourceRef<Comic>]
     public var collectedIssues: [ResourceRef<Comic>]
-    public var dates: [Comic.Date]
-    public var prices: [Price]
+    public var dates: [Annotated<Date>]
+    public var prices: [Annotated<Price>]
     public var thumbnail: ImageRef
     public var images: [ImageRef]
     public var creators: ResourceList<Creator>
@@ -35,13 +37,3 @@ public struct Comic {
     public var stories: ResourceList<Story>
     public var events: ResourceList<CosmicEvent>
 }
-
-extension Comic {
-    public struct Price {}
-}
-
-extension Comic {
-    public struct Date {}
-}
-
-

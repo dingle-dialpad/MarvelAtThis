@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct Creator {
+public struct Creator: Codable {
     public let id: Int
     public var firstName: String
     public var middleName: String
@@ -14,7 +14,7 @@ public struct Creator {
     public var fullName: String
     public var lastModified: Date
     public var cannonicalURL: URL
-    public var urls: [MarvelURL]
+    public var urls: [Annotated<URL>]
     public var thumbnail: ImageRef
     public var series: ResourceList<Series>
     public var stories: ResourceList<Story>

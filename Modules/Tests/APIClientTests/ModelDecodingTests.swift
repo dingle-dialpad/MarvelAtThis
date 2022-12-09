@@ -26,5 +26,12 @@ final class ModelDecodingTests: XCTestCase {
         XCTAssertEqual(payload.data.results, [])
     }
 
+    func test_decodingCharacters() throws {
+        let data = JSONStub.getCharacters200.data
+
+        let payload = try APIClient.decoder.decode(APIPayload<MarvelCharacter>.self, from: data)
+
+        XCTAssertEqual(payload.data.results.count, 20)
+    }
 }
 

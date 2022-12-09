@@ -29,14 +29,22 @@ public struct APIClient {
 
 // MARK: - JSON
 extension APIClient {
+
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
+        return formatter
+    }()
+
     public static let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .millisecondsSince1970
+        decoder.dateDecodingStrategy = .formatted(dateFormatter)
         return decoder
     }()
 
     public static let encoder: JSONEncoder = {
         let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .formatted(dateFormatter)
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
         return encoder
     }()

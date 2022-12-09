@@ -5,12 +5,16 @@
 
 import Foundation
 
-public struct ResourceList<A> {
-    public var total: Int
+public struct ResourceList<A>: Codable {
+    public var available: Int
+    public var collectionURL: URL
     public var items: [ResourceRef<A>]
-}
+    public var returned: Int
 
-public struct ResourceRef<A> {
-    public var uri: String
-    public var name: String
+    enum CodingKeys: String, CodingKey {
+        case available
+        case collectionURL = "collectionURI"
+        case items
+        case returned
+    }
 }
