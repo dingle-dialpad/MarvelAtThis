@@ -38,6 +38,16 @@ final class ModelDecodingTests: XCTestCase {
         assertSnapshot(matching: payload, as: .plist)
     }
 
+    func test_decodingCosmicEvents() throws {
+        let data = JSONStub.getEvents200.data
+
+        let payload = try APIClient.decoder.decode(APIPayload<CosmicEvent>.self, from: data)
+
+        XCTAssertEqual(payload.data.count, 20)
+        assertSnapshot(matching: payload, as: .plist)
+
+    }
+
     func test_decodingStories() throws {
         let data = JSONStub.getStories200.data
 
@@ -46,5 +56,6 @@ final class ModelDecodingTests: XCTestCase {
         XCTAssertEqual(payload.data.count, 20)
         assertSnapshot(matching: payload, as: .plist)
     }
+
 }
 
