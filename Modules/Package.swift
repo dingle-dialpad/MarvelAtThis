@@ -15,17 +15,39 @@ let package = Package(
         .package(
             url: "https://github.com/pointfreeco/swift-composable-architecture.git",
             from: Version("0.47.2")
+        ),
+        .package(
+            url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
+            from: Version("1.10.0")
         )
     ],
     targets: [
-        .target(name: "APIClient", dependencies: [.tca, "SharedModels"]),
-        .target(name: "SharedModels", dependencies: []),
-        .target(name: "TestData", dependencies: [], resources: [.copy("Payloads")]),
-        .testTarget(name: "APIClientTests", dependencies: ["APIClient", "TestData"]),
-        .testTarget(name: "SharedModelsTests", dependencies: ["SharedModels"]),
+        .target(
+            name: "APIClient",
+            dependencies: [.tca, "SharedModels"]
+        ),
+        .target(
+            name: "SharedModels",
+            dependencies: []
+        ),
+        .target(
+            name: "TestData",
+            dependencies: [],
+            resources: [.copy("Payloads")]
+        ),
+        .testTarget(
+            name: "APIClientTests",
+            dependencies: ["APIClient", "TestData", .snapshotTesting],
+            resources: [.process("__Snapshots__")]
+        ),
+        .testTarget(
+            name: "SharedModelsTests",
+            dependencies: ["SharedModels"]
+        ),
     ]
 )
 
 extension Target.Dependency {
-    static let tca: Target.Dependency = .product(name: "ComposableArchitecture", package: "swift-composable-architecture")
+    static let tca = Target.Dependency.product(name: "ComposableArchitecture", package: "swift-composable-architecture")
+    static let snapshotTesting = Target.Dependency.product(name: "SnapshotTesting", package: "swift-snapshot-testing")
 }

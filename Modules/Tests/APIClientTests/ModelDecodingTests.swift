@@ -8,6 +8,7 @@ import XCTest
 import APIClient
 
 import SharedModels
+import SnapshotTesting
 import TestData
 
 final class ModelDecodingTests: XCTestCase {
@@ -16,22 +17,14 @@ final class ModelDecodingTests: XCTestCase {
         let data = JSONStub.responseSchema.data
 
         let payload = try APIClient.decoder.decode(APIPayload<String>.self, from: data)
-        XCTAssertEqual(payload.metadata.code, 200)
-        XCTAssertEqual(payload.metadata.status, "Ok")
-        XCTAssertEqual(payload.metadata.etag, "5616d2bbdfec4495120e3b473ac87ace37841048")
-        XCTAssertEqual(payload.data.offset, 0)
-        XCTAssertEqual(payload.data.limit, 20)
-        XCTAssertEqual(payload.data.total, 1562)
-        XCTAssertEqual(payload.data.count, 20)
-        XCTAssertEqual(payload.data.results, [])
+        assertSnapshot(matching: payload, as: .plist)
     }
 
     func test_decodingCharacters() throws {
         let data = JSONStub.getCharacters200.data
 
         let payload = try APIClient.decoder.decode(APIPayload<MarvelCharacter>.self, from: data)
-
-        XCTAssertEqual(payload.data.results.count, 20)
+        assertSnapshot(matching: payload, as: .plist)
     }
 }
 

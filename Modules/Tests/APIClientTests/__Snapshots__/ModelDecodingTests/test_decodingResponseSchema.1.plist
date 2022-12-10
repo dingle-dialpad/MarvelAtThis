@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<integer>200</integer>
+	<key>data</key>
+	<dict>
+		<key>count</key>
+		<integer>20</integer>
+		<key>limit</key>
+		<integer>20</integer>
+		<key>offset</key>
+		<integer>0</integer>
+		<key>results</key>
+		<array/>
+		<key>total</key>
+		<integer>1562</integer>
+	</dict>
+	<key>etag</key>
+	<string>5616d2bbdfec4495120e3b473ac87ace37841048</string>
+	<key>status</key>
+	<string>Ok</string>
+</dict>
+</plist>
