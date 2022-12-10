@@ -8,6 +8,8 @@ import Foundation
 public enum JSONStub: String {
     case responseSchema = "response_schema"
     case getCharacters200 = "get_characters_200"
+    case getCharacter200 = "get_character_200"
+    case getStories200 = "get_stories_200"
 
     public var data: Data {
         let fileURL = URL(fileURLWithPath: path)

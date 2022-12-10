@@ -9,14 +9,30 @@ public struct Story: Codable {
     public let id: Int
     public var title: String
     public var summary: String
-    public var cannonicalURL: URL
+    public var canonicalURL: URL
     public var type: String
     public var lastModified: Date
-    public var thumbnail: ImageRef
+    public var thumbnail: ImageRef?
     public var comics: ResourceList<Comic>
     public var series: ResourceList<Series>
     public var events: ResourceList<CosmicEvent>
-    public var chraracters: ResourceList<MarvelCharacter>
+    public var characters: ResourceList<MarvelCharacter>
     public var creators: ResourceList<Creator>
     public var originalIssue: ResourceRef<Comic>
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case summary = "description"
+        case canonicalURL = "resourceURI"
+        case type
+        case lastModified = "modified"
+        case thumbnail
+        case comics
+        case series
+        case events
+        case characters
+        case creators
+        case originalIssue
+    }
 }
