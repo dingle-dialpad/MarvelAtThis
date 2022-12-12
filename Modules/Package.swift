@@ -8,6 +8,7 @@ let package = Package(
     platforms: [.macOS(.v10_15), .iOS(.v15)],
     products: [
         .library(name: "APIClient", targets: ["APIClient"]),
+        .library(name: "MarvelCharacterList", targets: ["MarvelCharacterList"]),
         .library(name: "Rebar", targets: ["Rebar"]),
         .library(name: "SharedModels", targets: ["SharedModels"]),
         .library(name: "TestData", targets: ["TestData"])
@@ -25,7 +26,11 @@ let package = Package(
     targets: [
         .target(
             name: "APIClient",
-            dependencies: [.tca, "Rebar", "SharedModels"]
+            dependencies: ["Rebar", "SharedModels"]
+        ),
+        .target(
+            name: "MarvelCharacterList",
+            dependencies: [.tca, "SharedModels"]
         ),
         .target(name: "Rebar"),
         .target(
@@ -41,6 +46,10 @@ let package = Package(
             name: "APIClientTests",
             dependencies: ["APIClient", "TestData", .snapshotTesting],
             resources: [.process("__Snapshots__")]
+        ),
+        .testTarget(
+            name: "MarvelCharacterListTests",
+            dependencies: ["MarvelCharacterList", "APIClient", "TestData"]
         ),
         .testTarget(
             name: "SharedModelsTests",

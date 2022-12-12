@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct MarvelCharacter: Codable {
+public struct MarvelCharacter: Codable, Identifiable {
     public let id: Int
     public var name: String
     public var bio: String
