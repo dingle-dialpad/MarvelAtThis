@@ -12,7 +12,7 @@ public struct CosmicEvent: Codable {
     public var canonicalURL: URL
     public var urls: [Annotated<URL>]
     public var lastModified: Date
-    public var start: Date?
+    public var start: Date? 
     public var end: Date?
     public var thumbnail: ImageRef
     public var comics: ResourceList<Comic>

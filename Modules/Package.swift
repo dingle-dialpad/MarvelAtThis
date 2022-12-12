@@ -8,6 +8,7 @@ let package = Package(
     platforms: [.macOS(.v10_15), .iOS(.v15)],
     products: [
         .library(name: "APIClient", targets: ["APIClient"]),
+        .library(name: "Rebar", targets: ["Rebar"]),
         .library(name: "SharedModels", targets: ["SharedModels"]),
         .library(name: "TestData", targets: ["TestData"])
     ],
@@ -24,8 +25,9 @@ let package = Package(
     targets: [
         .target(
             name: "APIClient",
-            dependencies: [.tca, "SharedModels"]
+            dependencies: [.tca, "Rebar", "SharedModels"]
         ),
+        .target(name: "Rebar"),
         .target(
             name: "SharedModels",
             dependencies: []

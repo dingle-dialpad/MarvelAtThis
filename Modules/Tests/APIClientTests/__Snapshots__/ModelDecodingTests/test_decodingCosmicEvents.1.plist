@@ -423,7 +423,7 @@
 				<key>description</key>
 				<string>Loki sets about convincing the super-villains of Earth to attack heroes other than those they normally fight in an attempt to destroy the Avengers to absolve his guilt over inadvertently creating the team in the first place.</string>
 				<key>end</key>
-				<date>2008-01-04T08:00:00Z</date>
+				<date>2008-01-04T00:00:00Z</date>
 				<key>id</key>
 				<integer>116</integer>
 				<key>modified</key>
@@ -583,7 +583,7 @@
 					<integer>20</integer>
 				</dict>
 				<key>start</key>
-				<date>1989-12-10T08:00:00Z</date>
+				<date>1989-12-10T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -1159,7 +1159,7 @@
 				<key>description</key>
 				<string>In a twisted version of the world they knew, the X-Men battle against the eternal mutant Apocalypse as Bishop seeks to repair the timeline. Legion, Xavier's own son, attempts to kill off all of Xavier's enemies; however, when Legion attempts to murder Magneto, Xavier sacrifices his own life to save Magnus. As a result, Magneto casts off his anti-human sentiments and carries on Xavier's dream of peaceful co-existence, thereby founding the X-Men.</string>
 				<key>end</key>
-				<date>1996-06-01T07:00:00Z</date>
+				<date>1996-06-01T00:00:00Z</date>
 				<key>id</key>
 				<integer>227</integer>
 				<key>modified</key>
@@ -1319,7 +1319,7 @@
 					<integer>20</integer>
 				</dict>
 				<key>start</key>
-				<date>1995-03-01T08:00:00Z</date>
+				<date>1995-03-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -1865,7 +1865,7 @@
 				<key>description</key>
 				<string>In a 10-issue event written by Brian Michael Bendis with art by Bryan Hitch, Carlos Pacheco, Brandon Peterson and more, the heroes of the Marvel Universe have already fallen with the robot Ultron remaking the world in his image. The surviving Avengers, X-Men and others must fight through time and space in the hope of defeating their foe by any means necessary!</string>
 				<key>end</key>
-				<date>2013-06-19T07:00:00Z</date>
+				<date>2013-06-19T00:00:00Z</date>
 				<key>id</key>
 				<integer>314</integer>
 				<key>modified</key>
@@ -1947,7 +1947,7 @@
 					<integer>7</integer>
 				</dict>
 				<key>start</key>
-				<date>2013-03-06T08:00:00Z</date>
+				<date>2013-03-06T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -2469,7 +2469,7 @@
 				<key>description</key>
 				<string>In a strange reality where the X-Men never came to be, the war between humans and mutants has escalated to a level never before seen. What has become of our heroes and who will survive as the final war commences?</string>
 				<key>end</key>
-				<date>2011-05-01T07:00:00Z</date>
+				<date>2011-05-01T00:00:00Z</date>
 				<key>id</key>
 				<integer>303</integer>
 				<key>modified</key>
@@ -2533,7 +2533,7 @@
 					<integer>4</integer>
 				</dict>
 				<key>start</key>
-				<date>2011-01-26T08:00:00Z</date>
+				<date>2011-01-26T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -3204,7 +3204,7 @@
 				<key>description</key>
 				<string>Parallel stories pitting the Silver Surfer, Nova, Ronan the Accuser and the Super-Skrull against Annihilus and his forces lead into a climatic six-issue war written by Keith Giffen with art by Andrea DiVito! Follow the machinations of Thanos, the power of Galactus and the early seeds that will create the Guardians of the Galaxy!</string>
 				<key>end</key>
-				<date>2008-06-01T07:00:00Z</date>
+				<date>2008-06-01T00:00:00Z</date>
 				<key>id</key>
 				<integer>229</integer>
 				<key>modified</key>
@@ -3328,7 +3328,7 @@
 					<integer>14</integer>
 				</dict>
 				<key>start</key>
-				<date>2007-06-20T07:00:00Z</date>
+				<date>2007-06-20T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -3892,7 +3892,7 @@
 				<key>description</key>
 				<string>The Phalanx have a new leader in the killer robot Ultron, and he's looking for nothing less than univesal conquest! They've already taken the Kree and assimilated heroes like Ronan and Drax; can a rag tag group including Star-Lord, Quasar, Wraith and the reborn Adam Warlock stop them?</string>
 				<key>end</key>
-				<date>2009-01-14T08:00:00Z</date>
+				<date>2009-01-14T00:00:00Z</date>
 				<key>id</key>
 				<integer>293</integer>
 				<key>modified</key>
@@ -3992,7 +3992,7 @@
 					<integer>10</integer>
 				</dict>
 				<key>start</key>
-				<date>2007-06-20T07:00:00Z</date>
+				<date>2007-06-20T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -4385,7 +4385,7 @@
 				<key>description</key>
 				<string>Tony Stark discovers that someone has been stealing his Iron Man tech and selling it to supervillains. He decides he must do whatever it takes to reacquire -- or destroy -- the stolen tech.</string>
 				<key>end</key>
-				<date>2010-03-17T07:00:00Z</date>
+				<date>2010-03-17T00:00:00Z</date>
 				<key>id</key>
 				<integer>231</integer>
 				<key>modified</key>
@@ -4449,7 +4449,7 @@
 					<integer>4</integer>
 				</dict>
 				<key>start</key>
-				<date>1987-12-10T08:00:00Z</date>
+				<date>1987-12-10T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -4989,7 +4989,7 @@
 				<key>description</key>
 				<string>Ghaur returns to complete his quest to resurrect the evil god Set, but his plan is opposed by Earth's heroes.</string>
 				<key>end</key>
-				<date>2011-02-16T08:00:00Z</date>
+				<date>2011-02-16T00:00:00Z</date>
 				<key>id</key>
 				<integer>233</integer>
 				<key>modified</key>
@@ -5113,7 +5113,7 @@
 					<integer>14</integer>
 				</dict>
 				<key>start</key>
-				<date>1989-01-01T08:00:00Z</date>
+				<date>1989-01-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -5677,7 +5677,7 @@
 				<key>description</key>
 				<string>Writer Brian Michael Bendis kicks off his historic run with the Avengers by bringing the previous era to a close alongside artist David Finch! Chaos reigns when of Earthâ€™s Mightiest Heroes turns against their teammates, leading the Avengers into a battle that not all will survive! Featuring Iron Man, Captain America, Hawkeye, the Scarlet Witch and more!</string>
 				<key>end</key>
-				<date>2005-01-01T08:00:00Z</date>
+				<date>2005-01-01T00:00:00Z</date>
 				<key>id</key>
 				<integer>234</integer>
 				<key>modified</key>
@@ -5807,7 +5807,7 @@
 					<integer>15</integer>
 				</dict>
 				<key>start</key>
-				<date>2004-07-28T07:00:00Z</date>
+				<date>2004-07-28T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -6020,7 +6020,7 @@
 				<key>description</key>
 				<string>Sam Wilson, formerly the Falcon, becomes the All-New Captain America! When Thor proves unworthy, a female God of Thunder rises up! Tony Stark declares himself the Superior Iron Man! Earth's Mightiest Heroes undergo major changes across the board!</string>
 				<key>end</key>
-				<date>2037-01-01T09:00:00Z</date>
+				<date>2037-01-01T01:00:00Z</date>
 				<key>id</key>
 				<integer>322</integer>
 				<key>modified</key>
@@ -6052,7 +6052,7 @@
 					<integer>0</integer>
 				</dict>
 				<key>start</key>
-				<date>2037-01-01T09:00:00Z</date>
+				<date>2037-01-01T01:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -6498,7 +6498,7 @@
 				<key>description</key>
 				<string>A 12-issue event written by the unprecedented team of Brian Michael Bendis, Jason Aaron, Jonathan Hickman, Ed Brubaker and Matt Fraction with art by the blockbuster trio of John Romita Jr., Olivier Coipel and Adam Kubert, Avengers VS X-Men brings Marvel's biggest characters up against the greatest threat they've ever faced: each other!</string>
 				<key>end</key>
-				<date>2012-09-19T07:00:00Z</date>
+				<date>2012-09-19T00:00:00Z</date>
 				<key>id</key>
 				<integer>310</integer>
 				<key>modified</key>
@@ -6592,7 +6592,7 @@
 					<integer>9</integer>
 				</dict>
 				<key>start</key>
-				<date>2012-04-04T07:00:00Z</date>
+				<date>2012-04-04T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -7159,7 +7159,7 @@
 				<key>description</key>
 				<string>The Red Skull has taken over Genosha and stands poised to plunge the planet into World War Hate! The Avengers and X-Men must team-up with each other and some of their greatest foes, but along the way, Inversion changes everything! Anything can happen in this nine-issue event written by Rick Remender with the art of Jim Cheung, Terry Dodson, Adam Kubert and Leinil Yu!</string>
 				<key>end</key>
-				<date>2014-12-17T19:59:00Z</date>
+				<date>2014-12-17T11:59:00Z</date>
 				<key>id</key>
 				<integer>320</integer>
 				<key>modified</key>
@@ -7301,7 +7301,7 @@
 					<integer>17</integer>
 				</dict>
 				<key>start</key>
-				<date>2014-10-08T07:01:00Z</date>
+				<date>2014-10-08T00:01:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -7769,7 +7769,7 @@
 				<key>description</key>
 				<string>Driven mad by the machinations of the evil Valkyrie, Thor sets out to destroy the Nine Worlds but is opposed by the Silver Surfer, Warlock and the Infinity Watch.</string>
 				<key>end</key>
-				<date>1994-02-10T08:00:00Z</date>
+				<date>1994-02-10T00:00:00Z</date>
 				<key>id</key>
 				<integer>235</integer>
 				<key>modified</key>
@@ -7833,7 +7833,7 @@
 					<integer>4</integer>
 				</dict>
 				<key>start</key>
-				<date>1993-11-10T08:00:00Z</date>
+				<date>1993-11-10T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -8409,7 +8409,7 @@
 				<key>description</key>
 				<string>When the Chaos King embarks on a campaign to wipe out all of existence, Hercules gathers the God Squad to stand in his way! Writers Greg Pak and Fred Van Lente join artist Khoi Pham to pit Herc and his rag tag teamâ€”including Thor, the Silver Surfer and Amadeus Choâ€”against an all-powerful evil as dead heroes and villains rise around them!</string>
 				<key>end</key>
-				<date>2011-03-06T08:00:00Z</date>
+				<date>2011-03-06T00:00:00Z</date>
 				<key>id</key>
 				<integer>296</integer>
 				<key>modified</key>
@@ -8515,7 +8515,7 @@
 					<integer>11</integer>
 				</dict>
 				<key>start</key>
-				<date>2010-10-01T07:00:00Z</date>
+				<date>2010-10-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -9082,7 +9082,7 @@
 				<key>description</key>
 				<string>After a horrific tragedy raises questions on whether or not super heroes should register with the government, longtime Avengers teammates Captain America and Iron Man end up on opposite sides of the argument! Writer Mark Millar and artist Steve McNiven split the Marvel Universe in two as friend fights friend in one of the most celebrated and successful events of all-time!</string>
 				<key>end</key>
-				<date>2007-01-29T08:00:00Z</date>
+				<date>2007-01-29T00:00:00Z</date>
 				<key>id</key>
 				<integer>238</integer>
 				<key>modified</key>
@@ -9242,7 +9242,7 @@
 					<integer>20</integer>
 				</dict>
 				<key>start</key>
-				<date>2006-07-01T07:00:00Z</date>
+				<date>2006-07-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -9832,7 +9832,7 @@
 				<key>description</key>
 				<string>Iron Man betrays the Avengers to Kang at the cost of several lives, ultimately including his own.</string>
 				<key>end</key>
-				<date>1996-02-10T08:00:00Z</date>
+				<date>1996-02-10T00:00:00Z</date>
 				<key>id</key>
 				<integer>239</integer>
 				<key>modified</key>
@@ -9884,7 +9884,7 @@
 					<integer>2</integer>
 				</dict>
 				<key>start</key>
-				<date>1995-09-10T07:00:00Z</date>
+				<date>1995-09-10T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -10460,7 +10460,7 @@
 				<key>description</key>
 				<string>Norman Osborn came out the hero of Secret Invasion, and now the former Green Goblin has been handed control of the Marvel Universe. With his Cabal and the Dark Avengers at his side, can anything stop this long time villain from reshaping the world in his own image? And what has become of the heroes?</string>
 				<key>end</key>
-				<date>2009-12-31T20:59:00Z</date>
+				<date>2009-12-31T12:59:00Z</date>
 				<key>id</key>
 				<integer>318</integer>
 				<key>modified</key>
@@ -10620,7 +10620,7 @@
 					<integer>20</integer>
 				</dict>
 				<key>start</key>
-				<date>2008-12-01T08:00:00Z</date>
+				<date>2008-12-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>
@@ -11091,7 +11091,7 @@
 				<key>description</key>
 				<string>An adult Franklin Richards travels back from the year 2017 to repair perceived "inaccuracies" in the timeline by altering reality. Richards' tampering of reality triggers a Sentinel program that awakens Ahab, the mutant hound-master, who attempts to apprehend the adult Richards in order to prevent any deviations from the timeline that spurs the Sentinel-ruled North America.</string>
 				<key>end</key>
-				<date>1990-01-23T08:00:00Z</date>
+				<date>1990-01-23T00:00:00Z</date>
 				<key>id</key>
 				<integer>240</integer>
 				<key>modified</key>
@@ -11155,7 +11155,7 @@
 					<integer>4</integer>
 				</dict>
 				<key>start</key>
-				<date>1990-01-01T08:00:00Z</date>
+				<date>1990-01-01T00:00:00Z</date>
 				<key>stories</key>
 				<dict>
 					<key>available</key>

@@ -5,7 +5,7 @@
 
 import XCTest
 
-import APIClient
+@testable import APIClient
 
 import SharedModels
 import SnapshotTesting
@@ -45,7 +45,6 @@ final class ModelDecodingTests: XCTestCase {
 
         XCTAssertEqual(payload.data.count, 20)
         assertSnapshot(matching: payload, as: .plist)
-
     }
 
     func test_decodingStories() throws {
