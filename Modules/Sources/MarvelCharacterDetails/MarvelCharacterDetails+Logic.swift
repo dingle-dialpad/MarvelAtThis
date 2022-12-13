@@ -8,7 +8,7 @@ import ComposableArchitecture
 import XCTestDynamicOverlay
 import MarvelData
 
-public struct MarvelCharacterList: ReducerProtocol {
+public struct MarvelCharacterDetails: ReducerProtocol {
 
     @Dependency(\.marvelDataClient) var dataClient
 
@@ -20,7 +20,7 @@ public struct MarvelCharacterList: ReducerProtocol {
 
 }
 
-extension MarvelCharacterList {
+extension MarvelCharacterDetails {
 
     public enum Action: Equatable {
         case bootstrap

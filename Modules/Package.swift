@@ -8,7 +8,11 @@ let package = Package(
     platforms: [.macOS(.v10_15), .iOS(.v15)],
     products: [
         .library(name: "APIClient", targets: ["APIClient"]),
+        .library(name: "CosmicEventList", targets: ["CosmicEventList"]),
+        .library(name: "FavoriteList", targets: ["FavoriteList"]),
         .library(name: "MarvelCharacterList", targets: ["MarvelCharacterList"]),
+        .library(name: "MarvelCharacterDetails", targets: ["MarvelCharacterDetails"]),
+        .library(name: "MarvelData", targets: ["MarvelData"]),
         .library(name: "Rebar", targets: ["Rebar"]),
         .library(name: "SharedModels", targets: ["SharedModels"]),
         .library(name: "TestData", targets: ["TestData"])
@@ -29,19 +33,29 @@ let package = Package(
             dependencies: ["Rebar", "SharedModels"]
         ),
         .target(
+            name: "CosmicEventList",
+            dependencies: [.tca, "MarvelData"]
+        ),
+        .target(
+            name: "FavoriteList",
+            dependencies: [.tca, "MarvelData"]
+        ),
+        .target(
+            name: "MarvelCharacterDetails",
+            dependencies: [.tca, "MarvelData"]
+        ),
+        .target(
             name: "MarvelCharacterList",
+            dependencies: [.tca, "MarvelData"]
+        ),
+        .target(
+            name: "MarvelData",
             dependencies: [.tca, "SharedModels"]
         ),
         .target(name: "Rebar"),
-        .target(
-            name: "SharedModels",
-            dependencies: []
-        ),
-        .target(
-            name: "TestData",
-            dependencies: [],
-            resources: [.copy("Payloads")]
-        ),
+        .target(name: "SharedModels"),
+        .target(name: "TestData", resources: [.copy("Payloads")]),
+        
         .testTarget(
             name: "APIClientTests",
             dependencies: ["APIClient", "TestData", .snapshotTesting],

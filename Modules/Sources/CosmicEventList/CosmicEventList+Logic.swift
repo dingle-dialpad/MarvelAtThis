@@ -3,12 +3,12 @@
 // Copyright © 2022 Dialpad Inc. All rights reserved.
 //
 
-import Foundation
 import ComposableArchitecture
-import XCTestDynamicOverlay
+import Foundation
 import MarvelData
+import XCTestDynamicOverlay
 
-public struct MarvelCharacterList: ReducerProtocol {
+public struct CosmicEventList: ReducerProtocol {
 
     @Dependency(\.marvelDataClient) var dataClient
 
@@ -20,7 +20,7 @@ public struct MarvelCharacterList: ReducerProtocol {
 
 }
 
-extension MarvelCharacterList {
+extension CosmicEventList {
 
     public enum Action: Equatable {
         case bootstrap
