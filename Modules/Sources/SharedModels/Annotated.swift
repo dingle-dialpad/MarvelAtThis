@@ -44,3 +44,5 @@ extension Date: AnnotatableItem {
 extension Price: AnnotatableItem {
     public static let itemKey = Annotated<Price>.CodingKeys.price
 }
+
+extension Annotated: Equatable where Item: Equatable {}

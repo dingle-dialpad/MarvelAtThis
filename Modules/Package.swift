@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(name: "APIClient", targets: ["APIClient"]),
         .library(name: "CosmicEventList", targets: ["CosmicEventList"]),
-        .library(name: "FavoriteList", targets: ["FavoriteList"]),
+        .library(name: "FavoritesFeature", targets: ["FavoritesFeature"]),
         .library(name: "MarvelCharacterList", targets: ["MarvelCharacterList"]),
         .library(name: "MarvelCharacterDetails", targets: ["MarvelCharacterDetails"]),
         .library(name: "MarvelData", targets: ["MarvelData"]),
@@ -37,7 +37,7 @@ let package = Package(
             dependencies: [.tca, "MarvelData"]
         ),
         .target(
-            name: "FavoriteList",
+            name: "FavoritesFeature",
             dependencies: [.tca, "MarvelData"]
         ),
         .target(
@@ -60,6 +60,10 @@ let package = Package(
             name: "APIClientTests",
             dependencies: ["APIClient", "TestData", .snapshotTesting],
             resources: [.process("__Snapshots__")]
+        ),
+        .testTarget(
+            name: "FavoritesFeatureTests",
+            dependencies: ["FavoritesFeature"]
         ),
         .testTarget(
             name: "MarvelCharacterListTests",

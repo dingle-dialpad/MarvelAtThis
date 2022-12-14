@@ -5,7 +5,7 @@
 
 import Foundation
 import ComposableArchitecture
-import SharedModels
+@_exported import SharedModels
 
 extension DependencyValues {
     public var marvelDataClient: MarvelDataClient {

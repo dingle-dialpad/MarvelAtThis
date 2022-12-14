@@ -6,6 +6,7 @@
 import Foundation
 import ComposableArchitecture
 import XCTestDynamicOverlay
+import SharedModels
 
 extension MarvelDataClient: TestDependencyKey {
 

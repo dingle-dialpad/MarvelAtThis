@@ -6,8 +6,9 @@
 import Foundation
 
 struct ViewModel: Equatable {
+    var isEmpty: Bool
 
     init(_ state: FavoriteList.State) {
-        
+        self.isEmpty = state.favorites.isEmpty
     }
 }

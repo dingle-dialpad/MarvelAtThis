@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct ImageRef: Codable {
+public struct ImageRef: Codable, Equatable {
     public let path: String
     public let fileExtension: String
 

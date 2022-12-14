@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct Creator: Codable {
+public struct Creator: Codable, Identifiable, Equatable {
     public let id: Int
     public var firstName: String
     public var middleName: String

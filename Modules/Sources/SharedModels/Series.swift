@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct Series: Codable {
+public struct Series: Codable, Identifiable, Equatable {
     public let id: Int
     public var title: String
     public var summary: String

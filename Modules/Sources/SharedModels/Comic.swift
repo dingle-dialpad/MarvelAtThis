@@ -7,7 +7,7 @@ import Foundation
 
 public typealias Price = Float
 
-public struct Comic: Codable {
+public struct Comic: Codable, Identifiable, Equatable {
     public let id: Int
     public let digitalID: Int
     public var title: String

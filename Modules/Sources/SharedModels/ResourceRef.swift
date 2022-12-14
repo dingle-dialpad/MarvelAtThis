@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct ResourceRef<A>: Codable {
+public struct ResourceRef<A>: Codable, Equatable {
     public var uri: String
     public var name: String
 

@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct ResourceList<A>: Codable {
+public struct ResourceList<A>: Codable, Equatable {
     public var available: Int
     public var collectionURL: URL
     public var items: [ResourceRef<A>]
