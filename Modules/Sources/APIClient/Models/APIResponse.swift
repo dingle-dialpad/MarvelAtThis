@@ -7,9 +7,9 @@ import Foundation
 
 public struct APIResponse {
     public let data: Data
-    public let metadata: HTTPURLResponse?
+    public let metadata: URLResponse
 
-    public init(data: Data, metadata: HTTPURLResponse?) {
+    public init(data: Data, metadata: URLResponse) {
         self.data = data
         self.metadata = metadata
     }

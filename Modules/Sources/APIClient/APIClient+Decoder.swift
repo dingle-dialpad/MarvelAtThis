@@ -13,7 +13,7 @@ extension JSONDecoder.DateDecodingStrategy {
 extension APIClient {
     public typealias Input = Data
 
-    static let decoder: JSONDecoder = {
+    public static let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .marvelAPI
         return decoder

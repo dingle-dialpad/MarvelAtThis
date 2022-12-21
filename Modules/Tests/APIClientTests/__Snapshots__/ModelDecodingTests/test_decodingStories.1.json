@@ -1,0 +1,1234 @@
+{
+  "data" : {
+    "count" : 20,
+    "cursor" : {
+      "limit" : 20,
+      "offset" : 0
+    },
+    "results" : [
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7\/comics",
+          "items" : [
+            {
+              "name" : "CAGE HC (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/941"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 7,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "CAGE HC (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/941"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/7\/series",
+          "items" : [
+            {
+              "name" : "CAGE HC (2002)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/6"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Investigating the murder of a teenage girl, Cage suddenly learns that a three-way gang war is under way for control of the turf",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8\/comics",
+          "items" : [
+            {
+              "name" : "THE CALL OF DUTY VOL. 1: THE BROTHERHOOD AND THE WAGON TPB (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/942"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 8,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "THE CALL OF DUTY VOL. 1: THE BROTHERHOOD AND THE WAGON TPB (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/942"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/8\/series",
+          "items" : [
+            {
+              "name" : "THE CALL OF DUTY VOL. 1: THE BROTHERHOOD AND THE WAGON TPB (2002)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/7"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "In the wake of September 11th, the world watched as firefighters, police officers and EMT workers selflessly risked their lives",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9\/comics",
+          "items" : [
+            {
+              "name" : "Call, the Vol. 2: The Precinct (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/943"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 9,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Call, the Vol. 2: The Precinct (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/943"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/9\/series",
+          "items" : [
+            {
+              "name" : "Call, the Vol. 2: The Precinct (2003)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/8"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Ordinary New York City cop Frankie &QUOT;Gunz&QUOT; Gunzer now has a new call to duty Ñ not just to uphold the law, but to save ",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10\/comics",
+          "items" : [
+            {
+              "name" : "Captain America: Red, White & Blue (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/944"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 5,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10\/creators",
+          "items" : [
+            {
+              "name" : "Nick Bertozzi",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/9181"
+            },
+            {
+              "name" : "Richard Isanove",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/13055"
+            },
+            {
+              "name" : "Karl Bollers",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/421"
+            },
+            {
+              "name" : "Mike Deodato",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312"
+            },
+            {
+              "name" : "Pasqual Ferry",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/365"
+            }
+          ],
+          "returned" : 5
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 10,
+        "modified" : "2014-01-27T05:00:00Z",
+        "originalIssue" : {
+          "name" : "Captain America: Red, White & Blue (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/944"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/10\/series",
+          "items" : [
+            {
+              "name" : "Captain America: Red, White & Blue (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/9"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "In this thought-provoking anthology, a world-class collection of top comic-book creators from around the globe presents a series",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11\/comics",
+          "items" : [
+            {
+              "name" : "Captain Britain Vol. I (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/945"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 11,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Captain Britain Vol. I (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/945"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/11\/series",
+          "items" : [
+            {
+              "name" : "Captain Britain Vol. I (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/10"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Interior #11",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12\/comics",
+          "items" : [
+            {
+              "name" : "SPIDER-MAN: THE COMPLETE FRANK MILLER HC (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/946"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 12,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "SPIDER-MAN: THE COMPLETE FRANK MILLER HC (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/946"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/12\/series",
+          "items" : [
+            {
+              "name" : "SPIDER-MAN: THE COMPLETE FRANK MILLER HC (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/11"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Presenting visionary writer\/artist Frank Miller's unique take on the world-famous wall-crawler Ñ including appearances by the Pu",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14\/comics",
+          "items" : [
+            {
+              "name" : "Daredevil Legends Vol. II: Born Again (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/948"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 14,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Daredevil Legends Vol. II: Born Again (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/948"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/14\/series",
+          "items" : [
+            {
+              "name" : "Daredevil Legends Vol. II: Born Again (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/13"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Karen Page, Daredevil's former lover, trades away Daredevil's identity for a drug fix.  Matt Murdock must find strength as the K",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15\/comics",
+          "items" : [
+            {
+              "name" : "Daredevil Legends Vol. III: Man Without Fear (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/949"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 15,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Daredevil Legends Vol. III: Man Without Fear (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/949"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/15\/series",
+          "items" : [
+            {
+              "name" : "Daredevil Legends Vol. III: Man Without Fear (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/14"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "This classic tale explores Matt Murdock's formative years Ñ detailing the relationship between him and his father, and the event",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16\/comics",
+          "items" : [
+            {
+              "name" : "Daredevil Visionaries: Frank Miller Vol. I (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/950"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 16,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Daredevil Visionaries: Frank Miller Vol. I (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/950"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/16\/series",
+          "items" : [
+            {
+              "name" : "Daredevil Visionaries: Frank Miller Vol. I (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/15"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Frank Miller's Daredevil submerged us in a world where heroes, pushed to the brink of madness, were allowed to mirror the human ",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17\/comics",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 2 TPB (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/951"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 17,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 2 TPB (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/951"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/17\/series",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 2 TPB (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/16"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "This volume features the gritty, street-level action and moody atmosphere that made Miller's Daredevil classic Ñ including appea",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18\/comics",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 3 TPB (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/952"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 18,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 3 TPB (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/952"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/18\/series",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VISIONARIES: FRANK MILLER VOL. 3 TPB (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/17"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Concluding Miller's complete run,  the Man Without Fear faces the Kingpin of Crime and the Hand Ñ and must come  to grips with t",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20\/comics",
+          "items" : [
+            {
+              "name" : "DAREDEVIL\/ECHO: PARTS OF A HOLE PREMIERE HC (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/954"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 20,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "DAREDEVIL\/ECHO: PARTS OF A HOLE PREMIERE HC (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/954"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/20\/series",
+          "items" : [
+            {
+              "name" : "DAREDEVIL\/ECHO: PARTS OF A HOLE PREMIERE HC (2010 - 1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/19"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Maya Lopez Ñ deaf, but capable of assimilating an individual's fighting style on sight Ñ has set her sights on Daredevil, who sh",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22\/comics",
+          "items" : [
+            {
+              "name" : "Daredevil Vol. IV: Underboss (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/956"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 2,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22\/creators",
+          "items" : [
+            {
+              "name" : "Brian Michael Bendis",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/24"
+            },
+            {
+              "name" : "Alex Maleev",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/25"
+            }
+          ],
+          "returned" : 2
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 22,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Daredevil Vol. IV: Underboss (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/956"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/22\/series",
+          "items" : [
+            {
+              "name" : "Daredevil Vol. IV: Underboss (2002)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/21"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "A contract on Matt Murdock's life is somehow connected to the Kingpin's apparent murder at the hands of the mysterious Mr. Silke",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23\/comics",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VOL. 5: OUT TPB (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/957"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 23,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "DAREDEVIL VOL. 5: OUT TPB (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/957"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/23\/series",
+          "items" : [
+            {
+              "name" : "DAREDEVIL VOL. 5: OUT TPB (2005)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/22"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "A down-on-his-luck FBI agent has sold the hero's most guarded secret to a tabloid newspaper, exposing Daredevil's identity to th",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24\/comics",
+          "items" : [
+            {
+              "name" : "Daredevil\/Elektra: Love & War (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/958"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 2,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24\/creators",
+          "items" : [
+            {
+              "name" : "Frank Miller",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/17"
+            },
+            {
+              "name" : "Bill Sienkiewicz",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/26"
+            }
+          ],
+          "returned" : 2
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 24,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Daredevil\/Elektra: Love & War (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/958"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/24\/series",
+          "items" : [
+            {
+              "name" : "Daredevil\/Elektra: Love & War (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/23"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Elektra: Assassin Ñ the story of how a tragic murder transformed an innocent, na•ve college student into a deadly assassin, and ",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26\/comics",
+          "items" : [
+            {
+              "name" : "Elektra & Wolverine: The Redeemer (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/960"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 2,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26\/creators",
+          "items" : [
+            {
+              "name" : "Yoshitaka Amano",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/29"
+            },
+            {
+              "name" : "Greg Rucka",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/28"
+            }
+          ],
+          "returned" : 2
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 26,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Elektra & Wolverine: The Redeemer (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/960"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/26\/series",
+          "items" : [
+            {
+              "name" : "Elektra & Wolverine: The Redeemer (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/25"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Haunted by her own father's death, Elektra finds that killing her latest target's daughter Ñ the only witness to the murder Ñ is",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27\/comics",
+          "items" : [
+            {
+              "name" : "Elektra Lives Again (Hardcover)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/961"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27\/creators",
+          "items" : [
+            {
+              "name" : "Frank Miller",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/17"
+            }
+          ],
+          "returned" : 1
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 27,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Elektra Lives Again (Hardcover)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/961"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/27\/series",
+          "items" : [
+            {
+              "name" : "Elektra Lives Again (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/26"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Despite the fact that Elektra died in his arms, Daredevil is plagued by recurring nightmares and terrible premonitions that his ",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28\/comics",
+          "items" : [
+            {
+              "name" : "Elektra: The Scorpio Key (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/962"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 2,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28\/creators",
+          "items" : [
+            {
+              "name" : "Chuck Austen",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11"
+            },
+            {
+              "name" : "Brian Michael Bendis",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/24"
+            }
+          ],
+          "returned" : 2
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 28,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Elektra: The Scorpio Key (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/962"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/28\/series",
+          "items" : [
+            {
+              "name" : "Elektra: The Scorpio Key (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/27"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "S.H.I.E.L.D. offers Elektra a mission so dirty, so difficult, no one else could pull it off.  But if Elektra takes the job, she'",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29\/comics",
+          "items" : [
+            {
+              "name" : "Essential Incredible Hulk Vol. I (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/964"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 2,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29\/creators",
+          "items" : [
+            {
+              "name" : "John Buscema",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1612"
+            },
+            {
+              "name" : "Steve Ditko",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/creators\/32"
+            }
+          ],
+          "returned" : 2
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 29,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Essential Incredible Hulk Vol. I (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/964"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/29\/series",
+          "items" : [
+            {
+              "name" : "Essential Incredible Hulk Vol. I (2002)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/28"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "Caught in the heart of a nuclear explosion, mild-mannered scientist Bruce Banner finds himself Ñ during moments of extreme stres",
+        "type" : "story"
+      },
+      {
+        "characters" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30\/characters",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "comics" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30\/comics",
+          "items" : [
+            {
+              "name" : "Essential Incredible Hulk Vol. II (Trade Paperback)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/965"
+            }
+          ],
+          "returned" : 1
+        },
+        "creators" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30\/creators",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "description" : "",
+        "events" : {
+          "available" : 0,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30\/events",
+          "items" : [
+
+          ],
+          "returned" : 0
+        },
+        "id" : 30,
+        "modified" : "1970-01-01T00:00:00Z",
+        "originalIssue" : {
+          "name" : "Essential Incredible Hulk Vol. II (Trade Paperback)",
+          "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/comics\/965"
+        },
+        "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30",
+        "series" : {
+          "available" : 1,
+          "collectionURI" : "http:\/\/gateway.marvel.com\/v1\/public\/stories\/30\/series",
+          "items" : [
+            {
+              "name" : "Essential Incredible Hulk Vol. II (1999)",
+              "resourceURI" : "http:\/\/gateway.marvel.com\/v1\/public\/series\/29"
+            }
+          ],
+          "returned" : 1
+        },
+        "title" : "The second volume containing the Hulk's early adventures with appearances by the Sub-Mariner, the Mandarin, Ka-Zar and Nick Fury",
+        "type" : "story"
+      }
+    ],
+    "total" : 123405
+  },
+  "metadata" : {
+    "code" : 200,
+    "etag" : "79fca6bb32aec9868f6e64f1f044bf057e2255ac",
+    "status" : "Ok"
+  }
+}

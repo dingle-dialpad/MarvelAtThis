@@ -6,11 +6,11 @@
 import Foundation
 import ComposableArchitecture
 import XCTestDynamicOverlay
-import MarvelData
+import SharedModels
 
 public struct FavoriteList: ReducerProtocol {
 
-    @Dependency(\.marvelDataClient) var dataClient
+//    @Dependency(\.marvelDataClient) var dataClient
 
     public var body: some ReducerProtocol<State, Action> {
         Reduce { state, action in
@@ -50,7 +50,7 @@ extension FavoriteList {
         public var featureStack: [ChildFeature] = []
         public var favorites: IdentifiedArrayOf<FavoriteItem.State> = []
 
-        public init(favorites: IdentifiedArrayOf<FavoriteItem.State>) {
+        public init(favorites: IdentifiedArrayOf<FavoriteItem.State> = []) {
             self.favorites = favorites
         }
     }

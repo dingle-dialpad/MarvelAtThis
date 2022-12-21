@@ -15,7 +15,9 @@ extension DependencyValues {
 }
 
 public struct MarvelDataClient {
-    public enum Message { case placeholder }
+    public enum Message {
+        case placeholder
+    }
 
     public var connect: @Sendable (Any.Type) async -> AsyncStream<Message>
 

@@ -5,7 +5,7 @@
 
 import Foundation
 
-public struct APIError: Error {
+public struct APIError: Error, Decodable {
     public let code: Int
-    public let status: String
+    public let status: String?
 }

@@ -17,7 +17,7 @@ final class ModelDecodingTests: XCTestCase {
         let data = JSONStub.responseSchema.data
 
         let payload = try APIClient.decoder.decode(APIPayload<String>.self, from: data)
-        assertSnapshot(matching: payload, as: .plist)
+        assertSnapshot(matching: payload, as: .json(APIClient.encoder))
     }
 
     func test_decodingCharacters() throws {
@@ -26,7 +26,7 @@ final class ModelDecodingTests: XCTestCase {
         let payload = try APIClient.decoder.decode(APIPayload<MarvelCharacter>.self, from: data)
 
         XCTAssertEqual(payload.data.count, 20)
-        assertSnapshot(matching: payload, as: .plist)
+        assertSnapshot(matching: payload, as: .json(APIClient.encoder))
     }
 
     func test_decodingCharacter() throws {
@@ -35,7 +35,7 @@ final class ModelDecodingTests: XCTestCase {
         let payload = try APIClient.decoder.decode(APIPayload<MarvelCharacter>.self, from: data)
 
         XCTAssertEqual(payload.data.count, 1)
-        assertSnapshot(matching: payload, as: .plist)
+        assertSnapshot(matching: payload, as: .json(APIClient.encoder))
     }
 
     func test_decodingCosmicEvents() throws {
@@ -44,7 +44,7 @@ final class ModelDecodingTests: XCTestCase {
         let payload = try APIClient.decoder.decode(APIPayload<CosmicEvent>.self, from: data)
 
         XCTAssertEqual(payload.data.count, 20)
-        assertSnapshot(matching: payload, as: .plist)
+        assertSnapshot(matching: payload, as: .json(APIClient.encoder))
     }
 
     func test_decodingStories() throws {
@@ -53,7 +53,7 @@ final class ModelDecodingTests: XCTestCase {
         let payload = try APIClient.decoder.decode(APIPayload<Story>.self, from: data)
 
         XCTAssertEqual(payload.data.count, 20)
-        assertSnapshot(matching: payload, as: .plist)
+        assertSnapshot(matching: payload, as: .json(APIClient.encoder))
     }
 
 }
